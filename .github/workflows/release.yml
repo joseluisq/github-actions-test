@@ -212,7 +212,6 @@ jobs:
   release-checksums:
     name: build-release
     runs-on: ubuntu-20.04
-    needs: ['build-release']
     steps:
     - uses: MCJack123/ghaction-generate-release-hashes@v1
       with:
